@@ -1,72 +1,73 @@
 // if you use the function without argument use voide (return type)
-// Question 1 :
 
-// #include<stdio.h>
-//  int avg(int a, int b, int c){
-//       return (a+b+c)/3;
-//  }
-//  int main(){
-//       int a,b,c,s;
-//       printf("Enter the first number:\n");
-//       scanf("%d",&a);
-//       printf("Enter the second number:\n");
-//       scanf("%d",&b);
-//       printf("Enter the third number:\n");
-//       scanf("%d",&c);
-//       s = avg(a,b,c);
-//       printf("avg of the three numbers is = %d",s);
-//  }
+// Question 1 : Clculation of the avg ==>
 
-// Question 2:
+#include<stdio.h>
+ int avg(int a, int b, int c){
+      return (a+b+c)/3;
+ }
+ int main(){
+      int a,b,c,s;
+      printf("Enter the first number:\n");
+      scanf("%d",&a);
+      printf("Enter the second number:\n");
+      scanf("%d",&b);
+      printf("Enter the third number:\n");
+      scanf("%d",&c);
+      s = avg(a,b,c);
+      printf("avg of the three numbers is = %d",s);
+ }
 
-// #include<stdio.h>
-//  int temp (float c){  //declaration of a function
+// Question 2: Temperature conversion ==>
 
-//            return ((9*c/5)+32);
-// }
+#include<stdio.h>
+ int temp (float c){  //declaration of a function
 
-//  int main(){
-//       float c , F;
-//       printf("Enter the temperature in degree C* : ");
-//    scanf("%f",&c);
+           return ((9*c/5)+32);
+}
 
-//       F = temp(c);
-//       printf("Temperature in degree F is = %f",F);
-//       return 0 ;
-// }
+ int main(){
+      float c , F;
+      printf("Enter the temperature in degree C* : ");
+   scanf("%f",&c);
 
-// int temp (int a){  //defination of the function
-//       float result;
-//       result = ((9/5)*a+32);
-//       return result;
-// }
+      F = temp(c);
+      printf("Temperature in degree F is = %f",F);
+      return 0 ;
+}
 
-// Question 3:
+int temp (int a){  //defination of the function
+      float result;
+      result = ((9/5)*a+32);
+      return result;
+}
 
-// #include <stdio.h>
+// Question 3: Calculation of gravitational force ==>
 
-// int force(float m ){
-//       return (m * 9.8);
-// }
+#include <stdio.h>
 
-// int main()
-// {
-//       float m, F, g = 9.8;
-//       printf("Enter your mass: ");
-//       scanf("%f", &m);
-//       F = force(m);
-//       printf("Gravitationsal force of attration on a body is = %f",F);
-//       return 0;
-//  }
+int force(float m ){
+      return (m * 9.8);
+}
 
-// Question 5:
+int main()
+{
+      float m, F, g = 9.8;
+      printf("Enter your mass: ");
+      scanf("%f", &m);
+      F = force(m);
+      printf("Gravitationsal force of attration on a body is = %f",F);
+      return 0;
+ }
 
-// # include<stdio.h>
-// int main(){ int a;
-//       printf("%d %d %d\n",a,++a,a++);
-// }
+// Question 5: Find the output ==>
 
-// Question 7:
+# include<stdio.h>
+int main(){ int a;
+      printf("%d %d %d\n",a,++a,a++);
+}
+
+// Question 7: Printing the star pattern ==>
 #include <stdio.h>
 
 void func1(int num)
