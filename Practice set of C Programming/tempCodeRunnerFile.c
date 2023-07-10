@@ -1,0 +1,1 @@
+printf("Your pattern is:\n");
